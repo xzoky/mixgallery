@@ -1,0 +1,5 @@
+This is a piece of homework.
+It uses the 8tracks API to display a list of mixes in gallery form.
+It also displays details about each mix.
+
+You just need to plug in your 8tracks API key in the .pch file, and you're good to go.
