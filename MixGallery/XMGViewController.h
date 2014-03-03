@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XMGViewController : UIViewController
+@interface XMGViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
 
 @end

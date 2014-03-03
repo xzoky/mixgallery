@@ -21,6 +21,12 @@
 		88A208F218C2B9E300FE9AEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A208D418C2B9E300FE9AEE /* UIKit.framework */; };
 		88A208FA18C2B9E300FE9AEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88A208F818C2B9E300FE9AEE /* InfoPlist.strings */; };
 		88A208FC18C2B9E300FE9AEE /* MixGalleryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A208FB18C2B9E300FE9AEE /* MixGalleryTests.m */; };
+		88A2090618C2BBCE00FE9AEE /* XMGMixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A2090518C2BBCE00FE9AEE /* XMGMixTests.m */; };
+		88A2090918C2BBDD00FE9AEE /* XMGMix.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A2090818C2BBDD00FE9AEE /* XMGMix.m */; };
+		88A2090B18C2C57100FE9AEE /* mix.json in Resources */ = {isa = PBXBuildFile; fileRef = 88A2090A18C2C57100FE9AEE /* mix.json */; };
+		88BCA45218C40E2000159C64 /* XMGMixCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BCA45118C40E2000159C64 /* XMGMixCell.m */; };
+		88BCA45518C414F700159C64 /* XMGMixDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BCA45418C414F700159C64 /* XMGMixDetailsViewController.m */; };
+		88EC212C18C2D6A0009FA757 /* XMG8tracksConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EC212B18C2D6A0009FA757 /* XMG8tracksConnector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,16 @@
 		88A208F718C2B9E300FE9AEE /* MixGalleryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MixGalleryTests-Info.plist"; sourceTree = "<group>"; };
 		88A208F918C2B9E300FE9AEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		88A208FB18C2B9E300FE9AEE /* MixGalleryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixGalleryTests.m; sourceTree = "<group>"; };
+		88A2090518C2BBCE00FE9AEE /* XMGMixTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGMixTests.m; sourceTree = "<group>"; };
+		88A2090718C2BBDD00FE9AEE /* XMGMix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGMix.h; sourceTree = "<group>"; };
+		88A2090818C2BBDD00FE9AEE /* XMGMix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGMix.m; sourceTree = "<group>"; };
+		88A2090A18C2C57100FE9AEE /* mix.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mix.json; sourceTree = "<group>"; };
+		88BCA45018C40E2000159C64 /* XMGMixCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGMixCell.h; sourceTree = "<group>"; };
+		88BCA45118C40E2000159C64 /* XMGMixCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGMixCell.m; sourceTree = "<group>"; };
+		88BCA45318C414F700159C64 /* XMGMixDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGMixDetailsViewController.h; sourceTree = "<group>"; };
+		88BCA45418C414F700159C64 /* XMGMixDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGMixDetailsViewController.m; sourceTree = "<group>"; };
+		88EC212A18C2D6A0009FA757 /* XMG8tracksConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMG8tracksConnector.h; sourceTree = "<group>"; };
+		88EC212B18C2D6A0009FA757 /* XMG8tracksConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMG8tracksConnector.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +133,14 @@
 				88A208E218C2B9E300FE9AEE /* Main.storyboard */,
 				88A208E518C2B9E300FE9AEE /* XMGViewController.h */,
 				88A208E618C2B9E300FE9AEE /* XMGViewController.m */,
+				88A2090718C2BBDD00FE9AEE /* XMGMix.h */,
+				88A2090818C2BBDD00FE9AEE /* XMGMix.m */,
+				88EC212A18C2D6A0009FA757 /* XMG8tracksConnector.h */,
+				88EC212B18C2D6A0009FA757 /* XMG8tracksConnector.m */,
+				88BCA45018C40E2000159C64 /* XMGMixCell.h */,
+				88BCA45118C40E2000159C64 /* XMGMixCell.m */,
+				88BCA45318C414F700159C64 /* XMGMixDetailsViewController.h */,
+				88BCA45418C414F700159C64 /* XMGMixDetailsViewController.m */,
 				88A208E818C2B9E300FE9AEE /* Images.xcassets */,
 				88A208D718C2B9E300FE9AEE /* Supporting Files */,
 			);
@@ -138,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				88A208FB18C2B9E300FE9AEE /* MixGalleryTests.m */,
+				88A2090518C2BBCE00FE9AEE /* XMGMixTests.m */,
 				88A208F618C2B9E300FE9AEE /* Supporting Files */,
 			);
 			path = MixGalleryTests;
@@ -146,6 +171,7 @@
 		88A208F618C2B9E300FE9AEE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				88A2090A18C2C57100FE9AEE /* mix.json */,
 				88A208F718C2B9E300FE9AEE /* MixGalleryTests-Info.plist */,
 				88A208F818C2B9E300FE9AEE /* InfoPlist.strings */,
 			);
@@ -239,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88A2090B18C2C57100FE9AEE /* mix.json in Resources */,
 				88A208FA18C2B9E300FE9AEE /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,8 +278,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				88A208DD18C2B9E300FE9AEE /* main.m in Sources */,
+				88BCA45518C414F700159C64 /* XMGMixDetailsViewController.m in Sources */,
+				88A2090918C2BBDD00FE9AEE /* XMGMix.m in Sources */,
 				88A208E118C2B9E300FE9AEE /* XMGAppDelegate.m in Sources */,
+				88EC212C18C2D6A0009FA757 /* XMG8tracksConnector.m in Sources */,
 				88A208E718C2B9E300FE9AEE /* XMGViewController.m in Sources */,
+				88BCA45218C40E2000159C64 /* XMGMixCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88A208FC18C2B9E300FE9AEE /* MixGalleryTests.m in Sources */,
+				88A2090618C2BBCE00FE9AEE /* XMGMixTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +493,7 @@
 				88A2090118C2B9E300FE9AEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88A2090218C2B9E300FE9AEE /* Build configuration list for PBXNativeTarget "MixGalleryTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +502,7 @@
 				88A2090418C2B9E300FE9AEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
