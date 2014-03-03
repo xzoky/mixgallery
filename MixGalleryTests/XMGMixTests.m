@@ -53,7 +53,7 @@
     mix.playsCount = 247;
     mix.tagListCache = @"folk, instrumental, autumn, melancholy";
     mix.likesCount = 33;
-    mix.certification = @"gem";
+    mix.certification = XMGCertificationLevelGem;
     
     mix.firstPublishedAt = [[XMGMix dateFormatter] dateFromString:@"2013-10-09T17:30:55Z"];
     
@@ -62,6 +62,7 @@
     XCTAssertEqual(self.mix.published, mix.published);
     XCTAssertEqual(self.mix.playsCount, mix.playsCount);
     XCTAssertEqual(self.mix.likesCount, mix.likesCount);
+    XCTAssertEqual(self.mix.certification, mix.certification);
     
     XCTAssertEqualObjects(self.mix.path, mix.path);
     XCTAssertEqualObjects(self.mix.webPath, mix.webPath);
@@ -69,7 +70,7 @@
     XCTAssertEqualObjects(self.mix.coverURLs, mix.coverURLs);
     XCTAssertEqualObjects(self.mix.descriptionString, mix.descriptionString);
     XCTAssertEqualObjects(self.mix.tagListCache, mix.tagListCache);
-    XCTAssertEqualObjects(self.mix.certification, mix.certification);
+
     XCTAssertEqualObjects(self.mix.firstPublishedAt, mix.firstPublishedAt);
 }
 
